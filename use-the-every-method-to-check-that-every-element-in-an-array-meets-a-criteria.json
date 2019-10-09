@@ -1,0 +1,1 @@
+{"index.js":"function checkPositive(arr) {\n  // Add your code below this line\n  return arr.every(function(currentValue){\n      return currentValue > 0;\n  });\n  \n  // Add your code above this line\n}\nconsole.log(checkPositive([1, 2, 3, -4, 5]));"}

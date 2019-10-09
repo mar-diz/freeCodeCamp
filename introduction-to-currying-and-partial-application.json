@@ -1,0 +1,1 @@
+{"index.js":"function add(x) {\n  // Add your code below this line\n  //arity is # of arguments it requires - currying means converting N arity into N functions of arity 1\n  return function(y){\n    return function(z){\n      return x + y + z;\n    }\n  }\n\n  // Add your code above this line\n}\nconsole.log(add(10)(20)(30));"}
