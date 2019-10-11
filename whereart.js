@@ -7,6 +7,8 @@ function whatIsInAName(collection, source) {
   //console.log("test1: " + collection[0].last);
   //console.log(source[Object.keys(source)]);
 
+  //TODO: You need to take into account if source has more than one key/value pairs
+  //if collection at index i hasOwnProperty of source[0], source[1], etc
   for(var i=0;i<collection.length;i++){
     //this means that the collection at array index i has the property of 'source'
     if(collection[i].hasOwnProperty(Object.keys(source))){
